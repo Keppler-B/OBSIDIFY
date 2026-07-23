@@ -15,6 +15,27 @@ Checks:
 Exit code 0 = all references resolve, 1 = problems found.
 With --strict, warnings (3 and 4) also cause exit code 1.
 """
+
+"""
+NOTICE:
+
+OBSIDIFY - An Agentic Skillset that turns lecture scripts into knowledge graphs
+Copyright (C) 2026  Bela Keppler
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+
 import os, re, sys, glob
 
 # Vault machinery, not notes. Snapshots in particular are copies — scanning them
