@@ -1,6 +1,6 @@
-# OBSIDIFY
+<img src="assets/obsidify-banner.svg" width="100%">
 
-An [Agentic Skillset](https://agentskills.io) that turns a lecture script or textbook PDF into a
+**OBSIDIFY** is an [Agentic Skillset](https://agentskills.io) that turns a lecture script or textbook PDF into a
 navigable Obsidian study vault: a table of contents with tick-off checkboxes, small atomic
 linked notes, and a summary, formula sheet if needed, and exam checklist built on top.
 
