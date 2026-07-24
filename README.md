@@ -19,13 +19,18 @@ git clone https://github.com/Keppler-B/OBSIDIFY.git ~/$YOUR_PATH/skills/obsidify
 
 Consult your tool's docs for its skills path; the directory layout is the same everywhere.
 
-**Claude.ai / the Claude API** — for direct use in Claude zip the folder and upload it:
+**If your model supports `.skill` files**: for direct use, archive the desired build with the following command and upload it
 
 ```bash
-cd .. && zip -r obsidify.skill obsidify -x '*__pycache__*' '*.DS_Store' '$YOUR_SYSTEMFILES'
+git archive --format=zip --prefix=obsidify/ -o ../obsidify.skill HEAD
 ```
 
-Or download the latest release of OBSIDIFY on the righthandside.
+Or just download the latest release of OBSIDIFY on the righthandside.
+
+> [!NOTE]
+> If you're going to archive the skill yourself, please note, that you will have to add any automatically created systemfiles from your specific OS into the .gitattributes file with the flag `export-ignore`.
+
+---
 
 ## Requirements
 
