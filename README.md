@@ -64,7 +64,7 @@ brew install poppler
 
 
 > [!NOTE]
-> Windows is not supported natively; run it under WSL.
+> Windows is not supported natively; run it under [WSL](https://learn.microsoft.com/de-de/windows/wsl/install).
 
 ## Scope
 
