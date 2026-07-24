@@ -38,6 +38,7 @@ Or just download the latest release of OBSIDIFY on the righthandside.
 |---|---|
 | **Linux** — Debian/Ubuntu, Fedora, Arch | Supported platform. |
 | **macOS 11+** (Big Sur or later) | Supported platform. |
+| **Windows** | Supported via [WSL](https://learn.microsoft.com/de-de/windows/wsl/install) |
 | **poppler 0.68+** — `pdftotext`, `pdftoppm`, `pdfinfo` | Text extraction, page rendering, and page counts. Every script shells out to these. |
 | **Python 3.8+** | Runs the bundled scripts. No third-party packages required. |
 | **Pillow 9+** *(optional)* | Figure grid overlay and margin trimming in `crop_figure.py`. Plain crops fall back to poppler without it. |
