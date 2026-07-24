@@ -8,6 +8,8 @@ Chapters are transferred **in parallel** by subagents, and the vault can be **up
 place** when a newer edition of the source appears, touching only the affected notes, and
 never overwriting annotations you added while studying.
 
+<img width="1434" height="806" alt="Adobe Express - Bildschirmaufnahme 2026-07-24 um 19 30 00-2" src="https://github.com/user-attachments/assets/01b61fe2-beb3-44ca-8c34-e8326075d3e6" />
+
 ## Install
 
 **Any agent that supports the Agent Skills standard can use this skill** (Claude Code, Codex, Cursor, VS Code,
